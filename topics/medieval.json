@@ -1,0 +1,20 @@
+{
+  "appName": "Medieval Oddities",
+  "bundleId": "com.yourname.medievaloddities",
+  "accentHex": "#6B2737",
+  "tagline": "The strange side of the Middle Ages",
+  "aboutText": "A reference reader for the strange side of the Middle Ages — gruesome executions, odd superstitions, and enduring legends — sourced entirely from Wikipedia.",
+  "supportEmail": "you@example.com",
+  "websiteURL": "https://yourname.github.io/medieval-oddities/",
+  "privacyURL": "https://yourname.github.io/medieval-oddities/privacy.html",
+  "metricLabel": null,
+  "showRegionFilter": true,
+  "showDateFacet": true,
+  "disclaimerTitle": null,
+  "disclaimerBody": null,
+  "categories": [
+    { "id": "executions", "title": "Executions", "symbol": "flame.fill", "wikipediaCategory": "Category:Execution methods", "limit": 60 },
+    { "id": "legends", "title": "Legends", "symbol": "book.closed.fill", "wikipediaCategory": "Category:Medieval legends", "limit": 60 },
+    { "id": "superstitions", "title": "Superstitions", "symbol": "eye.fill", "wikipediaCategory": "Category:Superstitions", "limit": 60 }
+  ]
+}
