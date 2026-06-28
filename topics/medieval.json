@@ -14,7 +14,7 @@
   "disclaimerBody": null,
   "categories": [
     { "id": "executions", "title": "Executions", "symbol": "flame.fill", "wikipediaCategory": "Category:Execution methods", "limit": 60 },
-    { "id": "legends", "title": "Legends", "symbol": "book.closed.fill", "wikipediaCategory": "Category:Medieval legends", "limit": 60 },
+    { "id": "lore", "title": "Lore", "symbol": "book.closed.fill", "wikipediaCategory": "Category:Medieval legends", "limit": 60 },
     { "id": "superstitions", "title": "Superstitions", "symbol": "eye.fill", "wikipediaCategory": "Category:Superstitions", "limit": 60 }
   ]
 }
