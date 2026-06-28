@@ -1,0 +1,20 @@
+{
+  "appName": "Believe It",
+  "bundleId": "com.yourname.believeit",
+  "accentHex": "#B5341B",
+  "tagline": "Records, hoaxes & wonderfully odd facts",
+  "aboutText": "A Ripley's-style reference reader for world records, famous hoaxes, and the wonderfully strange — sourced entirely from Wikipedia.",
+  "supportEmail": "you@example.com",
+  "websiteURL": "https://yourname.github.io/believe-it/",
+  "privacyURL": "https://yourname.github.io/believe-it/privacy.html",
+  "metricLabel": null,
+  "showRegionFilter": true,
+  "showDateFacet": true,
+  "disclaimerTitle": null,
+  "disclaimerBody": null,
+  "categories": [
+    { "id": "records", "title": "Records", "symbol": "trophy.fill", "wikipediaCategory": "Category:World records", "limit": 60 },
+    { "id": "hoaxes", "title": "Hoaxes", "symbol": "theatermasks.fill", "wikipediaCategory": "Category:Hoaxes", "limit": 60 },
+    { "id": "pranks", "title": "Pranks", "symbol": "party.popper.fill", "wikipediaCategory": "Category:Practical jokes", "limit": 60 }
+  ]
+}

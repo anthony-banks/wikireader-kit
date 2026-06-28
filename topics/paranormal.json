@@ -1,0 +1,20 @@
+{
+  "appName": "The Unexplained",
+  "bundleId": "com.yourname.theunexplained",
+  "accentHex": "#5B2A86",
+  "tagline": "Paranormal mysteries & the unexplained",
+  "aboutText": "A reference reader for cryptids, hauntings, and unexplained phenomena, sourced entirely from Wikipedia.",
+  "supportEmail": "you@example.com",
+  "websiteURL": "https://yourname.github.io/the-unexplained/",
+  "privacyURL": "https://yourname.github.io/the-unexplained/privacy.html",
+  "metricLabel": null,
+  "showRegionFilter": true,
+  "showDateFacet": true,
+  "disclaimerTitle": null,
+  "disclaimerBody": null,
+  "categories": [
+    { "id": "cryptids", "title": "Cryptids", "symbol": "pawprint.fill", "wikipediaCategory": "Category:Cryptids", "limit": 50 },
+    { "id": "ghosts", "title": "Hauntings", "symbol": "moon.stars.fill", "wikipediaCategory": "Category:Ghosts", "limit": 50 },
+    { "id": "ufos", "title": "UFOs", "symbol": "sparkles", "wikipediaCategory": "Category:UFO sightings", "limit": 50 }
+  ]
+}

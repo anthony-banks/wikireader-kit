@@ -1,0 +1,20 @@
+{
+  "appName": "Lost at Sea",
+  "bundleId": "com.yourname.lostatsea",
+  "accentHex": "#1B4965",
+  "tagline": "Pirates, shipwrecks & ships lost to the sea",
+  "aboutText": "A reference reader for the age of piracy, famous shipwrecks, and ships that vanished — sourced entirely from Wikipedia.",
+  "supportEmail": "you@example.com",
+  "websiteURL": "https://yourname.github.io/lost-at-sea/",
+  "privacyURL": "https://yourname.github.io/lost-at-sea/privacy.html",
+  "metricLabel": null,
+  "showRegionFilter": true,
+  "showDateFacet": true,
+  "disclaimerTitle": null,
+  "disclaimerBody": null,
+  "categories": [
+    { "id": "pirates", "title": "Pirates", "symbol": "flag.fill", "wikipediaCategory": "Category:18th-century pirates", "limit": 60 },
+    { "id": "shipwrecks", "title": "Shipwrecks", "symbol": "sailboat.fill", "wikipediaCategory": "Category:Shipwrecks", "limit": 60 },
+    { "id": "lost", "title": "Lost at Sea", "symbol": "water.waves", "wikipediaCategory": "Category:Missing ships", "limit": 60 }
+  ]
+}
