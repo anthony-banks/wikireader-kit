@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-01-01",
+  "_note": "SAMPLE seed so the template builds and runs. Replace this entirely by running Scripts/generate_catalog.py with your topic's Wikipedia categories. Category ids (alpha/beta/gamma) must match TopicConfig.categories.",
+  "entries": [
+    {
+      "id": "enwiki:Stonehenge",
+      "title": "Stonehenge",
+      "category": "alpha",
+      "articleURL": "https://en.wikipedia.org/wiki/Stonehenge",
+      "countryCode": "GB",
+      "countryName": "United Kingdom"
+    },
+    {
+      "id": "enwiki:Great_Wall_of_China",
+      "title": "Great Wall of China",
+      "category": "alpha",
+      "articleURL": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+      "countryCode": "CN",
+      "countryName": "China"
+    },
+    {
+      "id": "enwiki:Platypus",
+      "title": "Platypus",
+      "category": "beta",
+      "articleURL": "https://en.wikipedia.org/wiki/Platypus",
+      "countryCode": "AU",
+      "countryName": "Australia"
+    },
+    {
+      "id": "enwiki:Axolotl",
+      "title": "Axolotl",
+      "category": "beta",
+      "articleURL": "https://en.wikipedia.org/wiki/Axolotl",
+      "countryCode": "MX",
+      "countryName": "Mexico"
+    },
+    {
+      "id": "enwiki:Antikythera_mechanism",
+      "title": "Antikythera mechanism",
+      "category": "gamma",
+      "articleURL": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+      "countryCode": "GR",
+      "countryName": "Greece"
+    },
+    {
+      "id": "enwiki:Voynich_manuscript",
+      "title": "Voynich manuscript",
+      "category": "gamma",
+      "articleURL": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "startDate": "1404"
+    }
+  ]
+}
