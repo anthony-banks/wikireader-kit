@@ -151,7 +151,11 @@ def rename_tree(dest_root, ident, bundle_id, app_name):
                 continue
             o = s
             s = s.replace(TEMPLATE_BUNDLE, bundle_id)
-            s = s.replace(f'"{TEMPLATE_NAME}"', f'"{app_name}"')   # CFBundleDisplayName
+            # Only the CFBundleDisplayName gets the spaced app name. Doing a broad
+            # "WikiReader" -> app name swap would also clobber quoted path strings
+            # like "WikiReader" in the scripts/tests (they need the folder ident).
+            s = s.replace(f'INFOPLIST_KEY_CFBundleDisplayName = "{TEMPLATE_NAME}"',
+                          f'INFOPLIST_KEY_CFBundleDisplayName = "{app_name}"')
             s = s.replace(TEMPLATE_NAME, ident)                    # identifier everywhere else
             if s != o:
                 open(fp, "w", encoding="utf-8").write(s)
