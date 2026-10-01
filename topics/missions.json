@@ -1,0 +1,20 @@
+{
+  "appName": "Mission Trail",
+  "bundleId": "com.yourname.missiontrail",
+  "accentHex": "#9C4A2F",
+  "tagline": "Explore every Spanish mission site",
+  "aboutText": "A field guide to the Spanish colonial missions of the American Southwest — every site mapped, with detailed accounts sourced from Wikipedia.",
+  "supportEmail": "you@example.com",
+  "websiteURL": "https://yourname.github.io/mission-trail/",
+  "privacyURL": "https://yourname.github.io/mission-trail/privacy.html",
+  "metricLabel": null,
+  "showRegionFilter": false,
+  "showDateFacet": true,
+  "disclaimerTitle": null,
+  "disclaimerBody": null,
+  "categories": [
+    { "id": "california", "title": "California", "symbol": "building.columns.fill", "wikipediaCategory": "Category:Spanish missions in California", "limit": 60 },
+    { "id": "texas", "title": "Texas", "symbol": "building.2.fill", "wikipediaCategory": "Category:Spanish missions in Texas", "limit": 40 },
+    { "id": "newmexico", "title": "New Mexico", "symbol": "sun.max.fill", "wikipediaCategory": "Category:Spanish missions in New Mexico", "limit": 40 }
+  ]
+}
