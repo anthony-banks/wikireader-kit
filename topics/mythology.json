@@ -1,0 +1,20 @@
+{
+  "appName": "Bestiary",
+  "bundleId": "com.yourname.bestiary",
+  "accentHex": "#1E5945",
+  "tagline": "Myths, monsters & legendary beasts",
+  "aboutText": "An illustrated-encyclopedia-style reader for the monsters, beasts, and dragons of world mythology — sourced entirely from Wikipedia.",
+  "supportEmail": "you@example.com",
+  "websiteURL": "https://yourname.github.io/bestiary/",
+  "privacyURL": "https://yourname.github.io/bestiary/privacy.html",
+  "metricLabel": null,
+  "showRegionFilter": true,
+  "showDateFacet": false,
+  "disclaimerTitle": null,
+  "disclaimerBody": null,
+  "categories": [
+    { "id": "monsters", "title": "Monsters", "symbol": "pawprint.fill", "wikipediaCategory": "Category:Mythological hybrids", "limit": 60 },
+    { "id": "beasts", "title": "Beasts", "symbol": "hare.fill", "wikipediaCategory": "Category:Greek legendary creatures", "limit": 60 },
+    { "id": "dragons", "title": "Dragons", "symbol": "flame.fill", "wikipediaCategory": "Category:Dragons", "limit": 40 }
+  ]
+}
